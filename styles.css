@@ -73,12 +73,32 @@ main {
   color: #FFFFFF;
 }
 
+.answer-button:hover {
+  background-color: #1C3455;
+}
+
 .eight-ball {
   display: flex;
   align-self: center;
   width: 10rem;
   height: auto;
   margin-top: 2.5rem;
+}
+
+.user-question hidden {
+  display: flex;
+  align-self: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.random-answer hidden {
+  display: flex;
+  align-self: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .clear-button {
@@ -89,7 +109,19 @@ main {
   height: 2rem;
   width: 4rem;
   border: 0rem;
-  background-color: lightgray;
+  background-color: #D0CDCD;
+  margin-right: 2rem;
+}
+
+.clear-button hidden {
+  align-self: flex-end;
+  justify-self: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  height: 2rem;
+  width: 4rem;
+  border: 0rem;
+  background-color: #DE4841;
   margin-right: 2rem;
 }
 
