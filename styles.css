@@ -85,6 +85,22 @@ main {
   margin-top: 2.5rem;
 }
 
+.user-question hidden {
+  display: flex;
+  align-self: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.random-answer hidden {
+  display: flex;
+  align-self: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .clear-button {
   align-self: flex-end;
   justify-self: flex-end;
@@ -94,6 +110,18 @@ main {
   width: 4rem;
   border: 0rem;
   background-color: #D0CDCD;
+  margin-right: 2rem;
+}
+
+.clear-button hidden {
+  align-self: flex-end;
+  justify-self: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  height: 2rem;
+  width: 4rem;
+  border: 0rem;
+  background-color: #DE4841;
   margin-right: 2rem;
 }
 
