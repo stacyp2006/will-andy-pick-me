@@ -10,3 +10,47 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+html, body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  /* height: 100% */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Life Savers', serif;
+  font-size: 3rem;
+  color: #2b4e80;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0rem solid;
+  width: 35rem;
+  height: 25rem;
+  margin-left: 25rem;
+  background-color: #E6ECF4;
+}
+
+.question-input {
+  
+}
+
+.eight-ball {
+  width: 10rem;
+  height: auto;
+}
