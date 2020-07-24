@@ -73,6 +73,10 @@ main {
   color: #FFFFFF;
 }
 
+.answer-button:hover {
+  background-color: #1C3455;
+}
+
 .eight-ball {
   display: flex;
   align-self: center;
