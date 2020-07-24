@@ -38,7 +38,7 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   border: 0rem solid;
   width: 35rem;
   height: 25rem;
@@ -47,10 +47,44 @@ h1 {
 }
 
 .question-input {
-  
+  margin: 2em 4rem 0rem 4rem;
+  height: 2rem;
+  border: 0rem;
+}
+
+.question-input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.answer-button {
+  margin: 2em 4rem 0rem 4rem;
+  height: 2rem;
+  border: 0rem;
+  background-color: #2B4E80;
+  color: #FFFFFF;
 }
 
 .eight-ball {
+  display: flex;
+  align-self: center;
   width: 10rem;
   height: auto;
+  margin-top: 2.5rem;
+}
+
+.clear-button {
+  align-self: flex-end;
+  justify-self: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  height: 2rem;
+  width: 4rem;
+  border: 0rem;
+  background-color: lightgray;
+  margin-right: 2rem;
+}
+
+.woody-image {
 }
